@@ -1,0 +1,242 @@
+/* 基础样式reset */
+
+input {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+
+/* 组件整体容器 */
+
+.cw-input-select_wrap {
+    position: relative;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    font-family: ' Microsoft YaHei';
+    font-weight: 400;
+    line-height: 40px;
+    color: #109583;
+}
+
+
+/* 组件内容 */
+
+.cw-input-select {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+}
+
+
+/* 基本下拉框 */
+
+.cw-input-select_box {
+    width: 100px;
+    height: 40px;
+    // border: 1px solid #b7b7b7;
+    border-radius: 4px;
+    background-color: white;
+    // position: relative;
+    display: flex;
+    cursor: pointer;
+}
+
+//上方可旋转小三角
+.cw-arrow {
+    content: "";
+    position: absolute;
+    right: 8px;
+    top: 18%;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 7px solid #000;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: transparent;
+    transition: transform .3s, -webkit-transform .3s;
+    transform: rotate(0deg);
+    z-index: 8;
+}
+
+
+/* 基本下拉框 文字 */
+
+.cw-input-select_box>span {
+    display: inline-block;
+    line-height: 40px;
+    padding: 0 30px 0 15px;
+    font-size: 16px;
+    font-family: 'Microsoft YaHei';
+    font-weight: 400;
+    color: #109583;
+    /* 文字超出用省略号 */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/* 选项列表盒子 */
+
+.cw-input-select_pop {
+    position: fixed;
+    background-color: white;
+    border: 1px solid #E4E7ED;
+    border-radius: 4px;
+    max-height: 274px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .1);
+    margin-top: 8px;
+    // padding: 5px;
+    box-sizing: border-box;
+    z-index: 9;
+}
+
+
+/* 选项列表盒子上方的三角形箭头 */
+
+.cw-input-select_arrow {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 6px;
+    filter: drop-shadow(0 2px 12px rgba(0, 0, 0, .03));
+    top: -6px;
+    left: 35px;
+    margin-right: 3px;
+    border-top-width: 0;
+    border-bottom-color: #fff;
+    z-index: 99;
+}
+
+
+/* 选项列表盒子里面的输入框 */
+
+.cw-input-select .cw-input-select_pop .cw-input-select_ipt {
+    position: absolute;
+    top: 0px;
+    z-index: 99;
+    height: 25px;
+    line-height: 25px;
+    margin-left: 5px;
+    width: 94%;
+    border: 1px solid #DCDFE6;
+    border-radius: 5px;
+    padding: 1px 5px;
+    font-size: 12px;
+}
+
+
+/* 选项列表内容 */
+
+.cw-input-select_options {
+    display: block;
+    // margin-top: 26px;
+    max-height: 234px;
+}
+
+
+/* 选项单元 */
+
+.cw-input-select_options {
+    & li {
+        padding: 8px 15px;
+        background-color: white;
+        cursor: pointer;
+        box-sizing: border-box;
+        width: 96px;
+        height: 42px;
+        text-align: center;
+        line-height: 26px;
+    }
+    & li:nth-child(2) {
+        color: #FF3400;
+    }
+}
+
+
+/* 选项单元hover */
+
+.cw-input-select_options li:hover {
+    background-color: #F5F7FA;
+}
+
+
+/* 箭头向上 */
+
+.cw-arrow.up {
+    transform: rotate(-180deg);
+    top: -1%;
+}
+
+
+/* 选项列表内容 */
+
+.cw-input-select_options {
+    display: block;
+    /* top: 6px; */
+    // margin-top: 30px;
+    max-height: 234px;
+    // overflow-y: scroll;
+    // border-top: 1px #DCDFE6 solid;
+}
+
+// /*自定义滚动条样式*/
+// .cw-input-select_options::-webkit-scrollbar {
+//     /*滚动条整体样式*/
+//     width: 6px;
+//     /*高宽分别对应横竖滚动条的尺寸*/
+//     height: 0;
+// }
+// .cw-input-select_options::-webkit-scrollbar-thumb {
+//     /*滚动条里面小方块*/
+//     border-radius: 6px;
+//     background-color: rgba(144, 147, 153, 0.3);
+//     transition: background-color 0.3s;
+// }
+// .cw-input-select_options::-webkit-scrollbar-track {
+//     /*滚动条里面轨道*/
+//     border-radius: 6px;
+//     background: transparent;
+// }
+// .cw-input-select_options::-webkit-scrollbar-thumb {
+//     /*滚动条里面小方块*/
+//     border-radius: 6px;
+//     background-color: rgba(144, 147, 153, 0);
+//     /* 重点在这里！！ */
+//     transition: background-color 0.3s;
+// }
+.cw-input-select_options:hover::-webkit-scrollbar-thumb {
+    background-color: rgba(144, 147, 153, 0.3);
+}
+
+.cw-input-select_ipt_wrap {
+    position: relative;
+}
+
+.icon-clear {
+    color: #aaa;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    z-index: 99;
+    cursor: pointer;
+}

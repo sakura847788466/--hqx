@@ -1,0 +1,89 @@
+@import '../../sass/mixin.scss';
+@import '../../sass/common.scss';
+.alarmStatus {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    .mainBox {
+        // width: 1164px;
+        background: #FFFFFF;
+        opacity: 1;
+        border-radius: 8px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        // margin: 0 auto;
+        padding: 32px 64px 24px 64px;
+        box-sizing: border-box;
+        .title {
+            width: 100%;
+            height: 64px;
+            @include flex(center, space-between);
+            .left {
+                span {
+                    width: 66px;
+                    display: inline-block;
+                    margin-right: 16px;
+                    font-size: 16px;
+                    font-family: 'Microsoft YaHei';
+                    font-weight: 400;
+                    color: #666666;
+                }
+                .el-date-editor {
+                    width: 290px;
+                    height: 42px;
+                     ::v-deep.el-input__inner {
+                        font-size: 16px;
+                        font-family: 'Microsoft YaHei';
+                        font-weight: 400;
+                        color: #333333;
+                    }
+                }
+            }
+            .right {
+                width: 410px;
+                height: 64px;
+                background: #F1F2F5;
+                border-radius: 8px;
+                padding: 8px 10px;
+                box-sizing: border-box;
+                @include flex(center, space-between);
+                .uploadErr {
+                    flex: 1;
+                    width: 190px;
+                    height: 48px;
+                    background: rgba(255, 255, 255, 0);
+                    opacity: 1;
+                    border-radius: 8px;
+                    @include flexCenter(center);
+                    color: #859CB1;
+                    cursor: pointer;
+                    span {
+                        font-size: 18px;
+                        font-family: 'Microsoft YaHei';
+                        font-weight: 400;
+                    }
+                }
+                .isActive {
+                    background: #FFFFFF;
+                    color: #109583;
+                }
+            }
+        }
+        .table-com {
+            margin-top: 32px;
+            width: 100%;
+        }
+        .page-list {
+            width: 100%;
+            height: 32px;
+            position: absolute;
+            left: 50%;
+            bottom: 24px;
+            transform: translateX(-50%);
+            @include flexCenter(center);
+        }
+    }
+}

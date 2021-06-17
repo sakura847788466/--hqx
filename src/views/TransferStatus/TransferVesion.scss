@@ -1,0 +1,364 @@
+@import '../../sass/common.scss';
+@import '../../sass/mixin.scss';
+// 媒体查询
+@media screen and (max-width: 1686px) {
+    .lineTransferLeft {
+        .item {
+            &:nth-child(1)>.dashedLine {
+                width: 386px!important;
+                border-top: 1px dashed #109583;
+                transform: rotate(50deg)!important;
+                position: absolute;
+                top: 162px!important;
+                left: 69px!important;
+                img {
+                    position: absolute;
+                    left: 40px;
+                    top: -7px;
+                    z-index: 1500;
+                    transform: rotate(-50deg);
+                }
+            }
+            &:nth-child(2)>.dashedLine {
+                width: 336px!important;
+                border-top: 1px dashed #109583;
+                transform: rotate(43deg)!important;
+                position: absolute;
+                top: 126px!important;
+                left: 92px!important;
+                z-index: 1;
+                img {
+                    position: absolute;
+                    left: 40px;
+                    top: -7px;
+                    z-index: 1500;
+                    transform: rotate(-50deg);
+                }
+            }
+            &:nth-child(3)>.dashedLine {
+                width: 295px!important;
+                border-top: 1px dashed #109583;
+                transform: rotate(33deg)!important;
+                position: absolute;
+                top: 90px!important;
+                left: 111px!important;
+                z-index: 1;
+                img {
+                    position: absolute;
+                    left: 40px;
+                    top: -7px;
+                    z-index: 1500;
+                    transform: rotate(-50deg);
+                }
+            }
+            &:nth-child(4)>.dashedLine {
+                width: 265px!important;
+                border-top: 1px dashed #109583;
+                transform: rotate(20deg)!important;
+                position: absolute;
+                top: 61px!important;
+                left: 125px!important;
+                z-index: 1;
+                img {
+                    position: absolute;
+                    left: 40px;
+                    top: -7px;
+                    z-index: 1500;
+                    transform: rotate(-50deg);
+                }
+            }
+            &:nth-child(5)>.dashedLine {
+                width: 257px;
+                border-top: 1px dashed #109583;
+                transform: rotate(5deg);
+                position: absolute;
+                top: 27px;
+                left: 128px;
+                z-index: 1;
+                img {
+                    position: absolute;
+                    left: 40px;
+                    top: -7px;
+                    z-index: 1500;
+                    transform: rotate(-50deg);
+                }
+            }
+            &:nth-child(6)>.dashedLine {
+                width: 260px!important;
+                border-top: 1px dashed #109583;
+                transform: rotate(-9deg)!important;
+                position: absolute;
+                top: -6px!important;
+                left: 127px!important;
+                z-index: 1;
+                img {
+                    position: absolute;
+                    left: 40px;
+                    top: -7px;
+                    z-index: 1500;
+                    transform: rotate(-50deg);
+                }
+            }
+            &:nth-child(7)>.dashedLine {
+                width: 277px!important;
+                border-top: 1px dashed #109583;
+                transform: rotate(-23deg)!important;
+                position: absolute;
+                top: -38px!important;
+                left: 120px!important;
+                z-index: 1;
+                img {
+                    position: absolute;
+                    left: 40px;
+                    top: -7px;
+                    z-index: 1500;
+                    transform: rotate(-50deg);
+                }
+            }
+            &:nth-child(8)>.dashedLine {
+                width: 305px!important;
+                border-top: 1px dashed #109583;
+                transform: rotate(-34deg)!important;
+                position: absolute;
+                top: -70px!important;
+                left: 106px!important;
+                z-index: 1;
+                img {
+                    position: absolute;
+                    left: 40px;
+                    top: -7px;
+                    z-index: 1500;
+                    transform: rotate(-50deg);
+                }
+            }
+            &:nth-child(9)>.dashedLine {
+                width: 348px!important;
+                border-top: 1px dashed #109583;
+                transform: rotate(-43deg)!important;
+                position: absolute;
+                top: -102px!important;
+                left: 83px!important;
+                z-index: 1;
+                img {
+                    position: absolute;
+                    left: 40px;
+                    top: -7px;
+                    z-index: 1500;
+                    transform: rotate(-50deg);
+                }
+            }
+            &:nth-child(10)>.dashedLine {
+                width: 397px;
+                border-top: 1px dashed #109583;
+                transform: rotate(-50deg);
+                position: absolute;
+                top: -135px;
+                left: 62px;
+                z-index: 1;
+                img {
+                    position: absolute;
+                    left: 40px;
+                    top: -7px;
+                    z-index: 1500;
+                    transform: rotate(-50deg);
+                }
+            }
+            &:nth-child(11)>.dashedLine {
+                width: 440px;
+                border-top: 1px dashed #109583;
+                transform: rotate(-55deg);
+                position: absolute;
+                top: -165px;
+                left: 35px;
+                z-index: 1;
+                img {
+                    position: absolute;
+                    left: 40px;
+                    top: -7px;
+                    z-index: 1500;
+                    transform: rotate(-50deg);
+                }
+            }
+        }
+    }
+    .lineTransferRight {
+        .item {
+            &:nth-child(1)>.dashedLine {
+                width: 382px!important;
+                border-top: 1px dashed #109583;
+                transform: rotate(-49deg)!important;
+                position: absolute;
+                top: 160px!important;
+                left: -330px!important;
+                z-index: 1;
+                img {
+                    position: absolute;
+                    right: 40px;
+                    top: -7px;
+                    z-index: 1500;
+                    transform: rotate(-220deg);
+                }
+            }
+            &:nth-child(2)>.dashedLine {
+                width: 339px!important;
+                border-top: 1px dashed #109583;
+                transform: rotate(-42deg)!important;
+                position: absolute;
+                top: 128px!important;
+                left: -310px!important;
+                z-index: 1;
+                img {
+                    position: absolute;
+                    right: 40px;
+                    top: -7px;
+                    z-index: 1500;
+                    transform: rotate(-220deg);
+                }
+            }
+            &:nth-child(3)>.dashedLine {
+                width: 300px!important;
+                border-top: 1px dashed #109583;
+                transform: rotate(-32deg)!important;
+                position: absolute;
+                top: 94px!important;
+                left: -290px!important;
+                z-index: 1;
+                img {
+                    position: absolute;
+                    right: 40px;
+                    top: -7px;
+                    z-index: 1500;
+                    transform: rotate(-220deg);
+                }
+            }
+            &:nth-child(4)>.dashedLine {
+                width: 276px!important;
+                border-top: 1px dashed #109583;
+                transform: rotate(-20deg)!important;
+                position: absolute;
+                top: 61px!important;
+                left: -276px!important;
+                z-index: 1;
+                img {
+                    position: absolute;
+                    right: 40px;
+                    top: -7px;
+                    z-index: 1500;
+                    transform: rotate(-220deg);
+                }
+            }
+            &:nth-child(5)>.dashedLine {
+                width: 264px!important;
+                border-top: 1px dashed #109583;
+                transform: rotate(-7deg)!important;
+                position: absolute;
+                top: 28px!important;
+                left: -272px!important;
+                z-index: 1;
+                img {
+                    position: absolute;
+                    right: 40px;
+                    top: -7px;
+                    z-index: 1500;
+                    transform: rotate(-220deg);
+                }
+            }
+            &:nth-child(6)>.dashedLine {
+                width: 266px!important;
+                border-top: 1px dashed #109583;
+                transform: rotate(7deg)!important;
+                position: absolute;
+                top: -6px!important;
+                left: -274px!important;
+                z-index: 1;
+                img {
+                    position: absolute;
+                    right: 40px;
+                    top: -7px;
+                    z-index: 1500;
+                    transform: rotate(-220deg);
+                }
+            }
+            &:nth-child(7)>.dashedLine {
+                width: 283px!important;
+                border-top: 1px dashed #109583;
+                transform: rotate(22deg)!important;
+                position: absolute;
+                top: -36px!important;
+                left: -279px!important;
+                z-index: 1;
+                img {
+                    position: absolute;
+                    right: 40px;
+                    top: -7px;
+                    z-index: 1500;
+                    transform: rotate(-220deg);
+                }
+            }
+            &:nth-child(8)>.dashedLine {
+                width: 320px!important;
+                border-top: 1px dashed #109583;
+                transform: rotate(33deg)!important;
+                position: absolute;
+                top: -76px!important;
+                left: -305px!important;
+                z-index: 1;
+                img {
+                    position: absolute;
+                    right: 40px;
+                    top: -7px;
+                    z-index: 1500;
+                    transform: rotate(-220deg);
+                }
+            }
+            &:nth-child(9)>.dashedLine {
+                width: 348px!important;
+                border-top: 1px dashed #109583;
+                transform: rotate(42deg)!important;
+                position: absolute;
+                top: -104px!important;
+                left: -313px!important;
+                z-index: 1;
+                img {
+                    position: absolute;
+                    right: 40px;
+                    top: -7px;
+                    z-index: 1500;
+                    transform: rotate(-220deg);
+                }
+            }
+            &:nth-child(10)>.dashedLine {
+                width: 397px!important;
+                border-top: 1px dashed #109583;
+                transform: rotate(50deg)!important;
+                position: absolute;
+                top: -135px!important;
+                left: -340px!important;
+                z-index: 1;
+                img {
+                    position: absolute;
+                    right: 40px;
+                    top: -7px;
+                    z-index: 1500;
+                    transform: rotate(-220deg);
+                }
+            }
+            &:nth-child(11)>.dashedLine {
+                width: 452px!important;
+                border-top: 1px dashed #109583;
+                transform: rotate(55deg)!important;
+                position: absolute;
+                top: -169px!important;
+                left: -366px!important;
+                z-index: 1;
+                img {
+                    position: absolute;
+                    right: 40px;
+                    top: -7px;
+                    z-index: 1500;
+                    transform: rotate(-220deg);
+                }
+            }
+        }
+    }
+}

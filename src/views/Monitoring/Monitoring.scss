@@ -1,0 +1,286 @@
+@import '../../sass/mixin.scss';
+@import '../../sass/common.scss';
+.monitoringBox {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .topBox {
+        flex: 1;
+        width: 100%;
+        @include flex(center, space-between);
+        margin-bottom: 32px;
+        .left {
+            width: 490px;
+            height: 100%;
+            background: #FFFFFF;
+            border-radius: 8px;
+            padding: 32px 0px 0 32px;
+            box-sizing: border-box;
+            .timeSelect {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                margin-bottom: 32px;
+                .title {
+                    font-size: 16px;
+                    font-family: 'Microsoft YaHei';
+                    font-weight: 400;
+                    color: #666666;
+                    margin-right: 16px;
+                }
+                .el-date-editor {
+                    width: 290px;
+                    height: 42px;
+                    .el-input__inner {
+                        @extend .el-date-editor;
+                        border: 1px solid #C7C7C7;
+                        border-radius: 4px;
+                        font-size: 16px;
+                        font-family: 'Microsoft YaHei';
+                        font-weight: 400;
+                        color: #333333;
+                        display: flex;
+                        align-items: center;
+                    }
+                    .el-input__prefix {
+                        line-height: 42px;
+                    }
+                }
+            }
+            .itemBox {
+                @include flex(center, space-between);
+                margin-bottom: 56px;
+                .item {
+                    flex: 1;
+                    display: flex;
+                    flex-direction: column;
+                    & span:nth-child(1) {
+                        margin-bottom: 16px;
+                        font-size: 16px;
+                        font-family: 'Microsoft YaHei';
+                        font-weight: 400;
+                        line-height: 21px;
+                        color: #858585;
+                    }
+                    & span:nth-child(2) {
+                        font-size: 24px;
+                        font-family: 'Microsoft YaHei';
+                        font-weight: 400;
+                        line-height: 21px;
+                        color: #333333;
+                        p {
+                            font-size: 16px;
+                            display: inline-block;
+                        }
+                    }
+                }
+                & .item:nth-child(2) {
+                    padding-left: 70px;
+                }
+            }
+        }
+        .right {
+            width: 1334px;
+            height: 100%;
+            background: #FFFFFF;
+            border-radius: 8px;
+            padding: 24px 46px 41px 47px;
+            box-sizing: border-box;
+            .title {
+                width: 100%;
+                height: 40px;
+                @include flex(center, space-between);
+                .sign {
+                    font-size: 18px;
+                    font-family: 'Microsoft YaHei';
+                    font-weight: bold;
+                    line-height: 40px;
+                    color: #333333;
+                }
+                .el-button {
+                    width: 100px;
+                    height: 40px;
+                    background: #FFFFFF;
+                    border: 1px solid #109583;
+                    border-radius: 4px;
+                    padding: 0!important;
+                    font-size: 14px;
+                    font-family: 'Microsoft YaHei';
+                    font-weight: 400;
+                    color: #109583;
+                }
+            }
+            .table {
+                margin-top: 24px;
+                width: 100%;
+                height: 224px;
+                table {
+                    // cellspacing: 0;
+                    border-collapse: collapse;
+                    text-align: center;
+                }
+                tr {
+                    height: 54px;
+                    th {
+                        // width: 125px;
+                        height: 100%;
+                        font-size: 18px;
+                        font-family: 'Microsoft YaHei';
+                        font-weight: bold;
+                        color: #333333;
+                        border: 1px solid #BEBEBE;
+                        line-height: 56px;
+                    }
+                    & th:nth-child(1) {
+                        width: 265px;
+                        text-align: left;
+                        padding-left: 43px;
+                        box-sizing: border-box;
+                    }
+                    & th:nth-child(2),
+                    & th:nth-child(3),
+                    & th:nth-child(4),
+                    & th:nth-child(5),
+                    & th:nth-child(6) {
+                        width: 124px;
+                    }
+                    td {
+                        font-size: 16px;
+                        font-family: 'Microsoft YaHei';
+                        font-weight: 400;
+                        color: #333333;
+                        line-height: 56px;
+                        text-align: center;
+                        border: 1px solid #BEBEBE;
+                    }
+                    & td:nth-child(1) {
+                        padding-left: 43px;
+                        text-align: left;
+                        box-sizing: border-box;
+                    }
+                    & td:last-child {
+                        .el-progress-bar__outer {
+                            height: 10px!important;
+                        }
+                        .el-progress__text {
+                            font-size: 16px;
+                            font-family: 'Microsoft YaHei';
+                            font-weight: bold;
+                            color: #333333;
+                        }
+                    }
+                }
+                colgroup {
+                    background: transparent;
+                }
+                col {
+                    width: 225px;
+                    height: 40px;
+                }
+            }
+        }
+    }
+    .bottomBox {
+        flex: 1.56;
+        width: 100%;
+        background: #FFFFFF;
+        border-radius: 8px;
+        @include flex(center, space-between);
+        padding: 21px 60px;
+        box-sizing: border-box;
+        .left,
+        .right {
+            width: 50%;
+            height: 100%;
+        }
+        .left {
+            padding-right: 71px;
+            box-sizing: border-box;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            .title {
+                width: 100%;
+                // height: 40px;
+                height: 11%;
+                @include flex(center, space-between);
+                margin-bottom: 8px;
+                .sign {
+                    font-size: 18px;
+                    font-family: ' Microsoft YaHei';
+                    font-weight: bold;
+                    color: #333333;
+                }
+                .el-select {
+                    width: 250px;
+                    height: 42px;
+                    .el-input__inner {
+                        @extend .el-select;
+                        border: 1px solid #C7C7C7;
+                        border-radius: 4px;
+                        font-size: 16px;
+                        font-family: 'Microsoft YaHei';
+                        font-weight: 400;
+                        color: #333333;
+                    }
+                }
+            }
+            .echartBox {
+                height: 89%;
+                width: 100%;
+            }
+            .containerLine {
+                width: 1px;
+                height: 245px;
+                color: #9B9B9B;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translateY(-50%);
+                z-index: 10;
+            }
+        }
+        .right {
+            padding-left: 67px;
+            box-sizing: border-box;
+            .title {
+                width: 100%;
+                height: 10%;
+                @include flex(center, space-between);
+                margin-bottom: 8px;
+                .sign {
+                    font-size: 18px;
+                    font-family: ' Microsoft YaHei';
+                    font-weight: bold;
+                    color: #333333;
+                }
+                .el-select {
+                    width: 250px;
+                    height: 42px;
+                    .el-input__inner {
+                        @extend .el-select;
+                        border: 1px solid #C7C7C7;
+                        border-radius: 4px;
+                    }
+                }
+            }
+            .echartBox {
+                height: 90%;
+                width: 100%;
+                position: relative;
+                 ::before {
+                    content: '';
+                    display: inline-block;
+                    width: 1px;
+                    height: 50%;
+                    background: #9B9B9B;
+                    position: absolute;
+                    left: -52px;
+                    top: 70%;
+                    transform: translateY(-70%);
+                }
+            }
+        }
+    }
+}

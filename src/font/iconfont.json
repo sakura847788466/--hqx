@@ -1,0 +1,751 @@
+{
+  "id": "1954423",
+  "name": "FBC观测监测",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "16618616",
+      "name": "组 3505",
+      "font_class": "zu3505",
+      "unicode": "e6ae",
+      "unicode_decimal": 59054
+    },
+    {
+      "icon_id": "16618617",
+      "name": "组 3507",
+      "font_class": "zu3507",
+      "unicode": "e6af",
+      "unicode_decimal": 59055
+    },
+    {
+      "icon_id": "16618618",
+      "name": "组 3511",
+      "font_class": "zu3511",
+      "unicode": "e6b0",
+      "unicode_decimal": 59056
+    },
+    {
+      "icon_id": "16618542",
+      "name": "减去 23",
+      "font_class": "jianqu23",
+      "unicode": "e6a8",
+      "unicode_decimal": 59048
+    },
+    {
+      "icon_id": "16618543",
+      "name": "减去 30",
+      "font_class": "jianqu30",
+      "unicode": "e6a9",
+      "unicode_decimal": 59049
+    },
+    {
+      "icon_id": "16618544",
+      "name": "减去 28",
+      "font_class": "jianqu28",
+      "unicode": "e6aa",
+      "unicode_decimal": 59050
+    },
+    {
+      "icon_id": "16618545",
+      "name": "减去 34",
+      "font_class": "jianqu34",
+      "unicode": "e6ab",
+      "unicode_decimal": 59051
+    },
+    {
+      "icon_id": "16618546",
+      "name": "减去 36",
+      "font_class": "jianqu36",
+      "unicode": "e6ac",
+      "unicode_decimal": 59052
+    },
+    {
+      "icon_id": "16618547",
+      "name": "减去 21",
+      "font_class": "jianqu21",
+      "unicode": "e6ad",
+      "unicode_decimal": 59053
+    },
+    {
+      "icon_id": "16617993",
+      "name": "波浪爬高",
+      "font_class": "zu3568-01",
+      "unicode": "e6a7",
+      "unicode_decimal": 59047
+    },
+    {
+      "icon_id": "16617874",
+      "name": "越浪高度",
+      "font_class": "zu3565",
+      "unicode": "e6a6",
+      "unicode_decimal": 59046
+    },
+    {
+      "icon_id": "16617820",
+      "name": "极大风向",
+      "font_class": "zu3563",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    },
+    {
+      "icon_id": "16617813",
+      "name": "极大风速风向",
+      "font_class": "zu3564",
+      "unicode": "e6a4",
+      "unicode_decimal": 59044
+    },
+    {
+      "icon_id": "16617806",
+      "name": "内部温度",
+      "font_class": "neibuwendu-01",
+      "unicode": "e6a3",
+      "unicode_decimal": 59043
+    },
+    {
+      "icon_id": "16617797",
+      "name": "越浪个数",
+      "font_class": "zu3567",
+      "unicode": "e6a2",
+      "unicode_decimal": 59042
+    },
+    {
+      "icon_id": "16460331",
+      "name": "播放",
+      "font_class": "lujing31",
+      "unicode": "e6a1",
+      "unicode_decimal": 59041
+    },
+    {
+      "icon_id": "16460312",
+      "name": "暂停",
+      "font_class": "lianhe55",
+      "unicode": "e6a0",
+      "unicode_decimal": 59040
+    },
+    {
+      "icon_id": "16313391",
+      "name": "导出",
+      "font_class": "daochu",
+      "unicode": "e69f",
+      "unicode_decimal": 59039
+    },
+    {
+      "icon_id": "16253317",
+      "name": "风向箭头选中",
+      "font_class": "jianqu20",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "16253300",
+      "name": "风向箭头",
+      "font_class": "jianqu10",
+      "unicode": "e69d",
+      "unicode_decimal": 59037
+    },
+    {
+      "icon_id": "16212750",
+      "name": "分布区",
+      "font_class": "zu2531",
+      "unicode": "e69c",
+      "unicode_decimal": 59036
+    },
+    {
+      "icon_id": "16053229",
+      "name": "可见",
+      "font_class": "zu2416",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    },
+    {
+      "icon_id": "16053230",
+      "name": "不可见",
+      "font_class": "zu2418",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
+    },
+    {
+      "icon_id": "16045014",
+      "name": "账户",
+      "font_class": "zu23",
+      "unicode": "e698",
+      "unicode_decimal": 59032
+    },
+    {
+      "icon_id": "16045015",
+      "name": "密码",
+      "font_class": "zu26",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    },
+    {
+      "icon_id": "16025794",
+      "name": "勾选框（未选）",
+      "font_class": "zu38",
+      "unicode": "e696",
+      "unicode_decimal": 59030
+    },
+    {
+      "icon_id": "16025795",
+      "name": "勾选框（选中）",
+      "font_class": "zu3270",
+      "unicode": "e697",
+      "unicode_decimal": 59031
+    },
+    {
+      "icon_id": "16019930",
+      "name": "日期",
+      "font_class": "riqi",
+      "unicode": "e695",
+      "unicode_decimal": 59029
+    },
+    {
+      "icon_id": "16019434",
+      "name": "右收起",
+      "font_class": "duobianxing1",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    },
+    {
+      "icon_id": "16019313",
+      "name": "恢复默认布局",
+      "font_class": "huifumorenbuju",
+      "unicode": "e693",
+      "unicode_decimal": 59027
+    },
+    {
+      "icon_id": "16019243",
+      "name": "平均风向",
+      "font_class": "zu2620",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "16018686",
+      "name": "水温",
+      "font_class": "zu2678",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "16018688",
+      "name": "1/3波周期",
+      "font_class": "zu2693",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    },
+    {
+      "icon_id": "16018689",
+      "name": "过去24小时",
+      "font_class": "jintian",
+      "unicode": "e684",
+      "unicode_decimal": 59012
+    },
+    {
+      "icon_id": "16018690",
+      "name": "铱星纬度",
+      "font_class": "zu2664",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "16018691",
+      "name": "相对湿度1",
+      "font_class": "zu2668",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "16018692",
+      "name": "GPS经度",
+      "font_class": "zu2661",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "16018693",
+      "name": "1/10波周期",
+      "font_class": "zu2660",
+      "unicode": "e688",
+      "unicode_decimal": 59016
+    },
+    {
+      "icon_id": "16018694",
+      "name": "最大横摇角",
+      "font_class": "zu2644",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "16018695",
+      "name": "二次电电压",
+      "font_class": "zu2674",
+      "unicode": "e68a",
+      "unicode_decimal": 59018
+    },
+    {
+      "icon_id": "16018696",
+      "name": "最小横摇角",
+      "font_class": "zu26451",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "16018697",
+      "name": "相对湿度2",
+      "font_class": "zu2669",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    },
+    {
+      "icon_id": "16018698",
+      "name": "一次电电压",
+      "font_class": "zu2673",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "16018699",
+      "name": "气温2",
+      "font_class": "zu2667",
+      "unicode": "e68e",
+      "unicode_decimal": 59022
+    },
+    {
+      "icon_id": "16018700",
+      "name": "GPS纬度",
+      "font_class": "zu2662",
+      "unicode": "e68f",
+      "unicode_decimal": 59023
+    },
+    {
+      "icon_id": "16018701",
+      "name": "气温1",
+      "font_class": "zu2617",
+      "unicode": "e690",
+      "unicode_decimal": 59024
+    },
+    {
+      "icon_id": "16018702",
+      "name": "铱星经度",
+      "font_class": "zu2663",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "16017754",
+      "name": "潮位加速度",
+      "font_class": "zu2624",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    },
+    {
+      "icon_id": "16017719",
+      "name": "启用按钮",
+      "font_class": "qiyonganniu",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "16017720",
+      "name": "左翻页",
+      "font_class": "zuofanye",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    },
+    {
+      "icon_id": "16017721",
+      "name": "禁用按钮",
+      "font_class": "jinyonganniu",
+      "unicode": "e67f",
+      "unicode_decimal": 59007
+    },
+    {
+      "icon_id": "16017722",
+      "name": "右翻页",
+      "font_class": "youfanye",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
+      "icon_id": "16017345",
+      "name": "正确",
+      "font_class": "zu2592",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "16017349",
+      "name": "潮位增减速度",
+      "font_class": "zu2625",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "16017353",
+      "name": "组实时水位值",
+      "font_class": "zu2623",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "16017354",
+      "name": "气温",
+      "font_class": "zu2666",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "16017355",
+      "name": "大气压",
+      "font_class": "zu2622",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "16017356",
+      "name": "相对湿度",
+      "font_class": "zu2621",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "16017357",
+      "name": "平均风速",
+      "font_class": "zu2619",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "16017358",
+      "name": "降雨量",
+      "font_class": "zu2618",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "16017359",
+      "name": "电压",
+      "font_class": "zu2627",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "16017361",
+      "name": "机箱温度",
+      "font_class": "zu2633",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "16017362",
+      "name": "警戒级别",
+      "font_class": "zu2626",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "16017363",
+      "name": "气压",
+      "font_class": "qiyabiao",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "16017369",
+      "name": "剩余空间",
+      "font_class": "zu2629",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "16017374",
+      "name": "采样点数",
+      "font_class": "zu2655",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "16017375",
+      "name": "平均横摇角",
+      "font_class": "zu2646",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "16017376",
+      "name": "充电电压",
+      "font_class": "zu2649",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "16017377",
+      "name": "最小横摇角",
+      "font_class": "zu2645",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "16017378",
+      "name": "信息编号",
+      "font_class": "zu2650",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "16017379",
+      "name": "平均纵摇角",
+      "font_class": "zu2648",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "16017380",
+      "name": "时间",
+      "font_class": "zu2651",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "16017381",
+      "name": "充电电流",
+      "font_class": "zu2652",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "16017382",
+      "name": "电导率",
+      "font_class": "zu2656",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "16017383",
+      "name": "浮标序列号",
+      "font_class": "zu2654",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "16017385",
+      "name": "系统未发送数据条数",
+      "font_class": "zu2653",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "16017386",
+      "name": "工作模式",
+      "font_class": "zu2665",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "16017387",
+      "name": "1/3波高",
+      "font_class": "zu2694",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "16017388",
+      "name": "1/10波高",
+      "font_class": "zu2659",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "16017389",
+      "name": "波浪个数",
+      "font_class": "zu2658",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "16017391",
+      "name": "最大纵摇角",
+      "font_class": "zu2671",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "16017392",
+      "name": "主波向",
+      "font_class": "zu2680",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "16017393",
+      "name": "波高",
+      "font_class": "zu2681",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "16017394",
+      "name": "真风速",
+      "font_class": "zu2690",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "16017395",
+      "name": "真风向",
+      "font_class": "zu2692",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "16017396",
+      "name": "波周期",
+      "font_class": "zu2683",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "16017397",
+      "name": "相对风向",
+      "font_class": "zu2691",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "16017398",
+      "name": "相对风速",
+      "font_class": "zu2689",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
+      "icon_id": "16017399",
+      "name": "修改",
+      "font_class": "bianji1",
+      "unicode": "e66b",
+      "unicode_decimal": 58987
+    },
+    {
+      "icon_id": "16017402",
+      "name": "采样点数",
+      "font_class": "zu2701",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "16017403",
+      "name": "帮助中心",
+      "font_class": "bangzhuzhongxin",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
+      "icon_id": "16017405",
+      "name": "最大波周期",
+      "font_class": "zu2702",
+      "unicode": "e66e",
+      "unicode_decimal": 58990
+    },
+    {
+      "icon_id": "16017406",
+      "name": "关闭",
+      "font_class": "lujing296",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "16017407",
+      "name": "工具箱",
+      "font_class": "bianji-1",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    },
+    {
+      "icon_id": "16017408",
+      "name": "告警",
+      "font_class": "gaojing",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
+      "icon_id": "16017409",
+      "name": "下拉箭头",
+      "font_class": "lianhe1",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "16017410",
+      "name": "右箭头",
+      "font_class": "lianhe46",
+      "unicode": "e673",
+      "unicode_decimal": 58995
+    },
+    {
+      "icon_id": "16017411",
+      "name": "平均波高",
+      "font_class": "zu2703",
+      "unicode": "e674",
+      "unicode_decimal": 58996
+    },
+    {
+      "icon_id": "16017412",
+      "name": "最大波高",
+      "font_class": "zu2704",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "16017413",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "16017414",
+      "name": "警告",
+      "font_class": "zu2555",
+      "unicode": "e677",
+      "unicode_decimal": 58999
+    },
+    {
+      "icon_id": "16017415",
+      "name": "过去一月",
+      "font_class": "benyue",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "16017416",
+      "name": "告警统计",
+      "font_class": "zu2578",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "16017417",
+      "name": "图层",
+      "font_class": "bianji",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "16017419",
+      "name": "地图",
+      "font_class": "zu30",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "16017420",
+      "name": "本周过去一周",
+      "font_class": "benzhou",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    }
+  ]
+}

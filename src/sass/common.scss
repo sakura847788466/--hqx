@@ -1,0 +1,374 @@
+    $blue:#3988FF;
+    $green: #31DAB3;
+    $yellow: #FFA632;
+    $white: #ffffff;
+    $font:'PingFang SC';
+    $status:0;
+     :export {
+        status: $status;
+    }
+    
+    // 字体图标
+    .font-icon {
+        width: 1em;
+        height: 1em;
+        vertical-align: -0.15em;
+        fill: currentColor;
+        overflow: hidden;
+    }
+    
+    // 表格
+    .custom-table {
+        .el-table,
+        .el-table__append-wrapper {
+            overflow: visible;
+        }
+        .el-table th {
+            padding: 0 !important;
+            background-color: #EDF2F8;
+            height: 56px;
+            font-size: 14px;
+            color: #8D8D8D;
+            position: relative;
+            font-weight: normal !important;
+            // text-align: center;
+            &::after {
+                content: "";
+                display: block;
+                height: 70%;
+                width: 2px;
+                background-color: #ffffff;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translateY(-50%);
+                z-index: 1000;
+            }
+            &:nth-last-of-type(2),
+            &:nth-last-of-type(1) {
+                &::after {
+                    display: none;
+                }
+            }
+        }
+        .el-table td {
+            border-bottom: none;
+            padding: 12px 0;
+        }
+        .el-table__fixed-right::before,
+        .el-table__fixed::before,
+        .el-table--border::after,
+        .el-table--group::after,
+        .el-table::before {
+            background: none !important;
+        }
+        .el-table__header-wrapper {
+            background-color: #EDF2F8;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+            z-index: 1000;
+            position: relative;
+            border-radius: 5px 0 0 5px !important;
+        }
+        .el-table__fixed-header-wrapper {
+            z-index: 1000;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+        }
+        .el-table .cell {
+            white-space: nowrap !important;
+            overflow: hidden !important;
+            text-overflow: ellipsis !important;
+            height: 36px;
+            line-height: 36px;
+            // 缩略
+            .table-column-ellipsis {
+                width: 100%;
+                white-space: nowrap !important;
+                overflow: hidden !important;
+                text-overflow: ellipsis !important;
+                position: relative;
+                cursor: pointer;
+                .table-column-tooltip {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            // 表格列内嵌文本框
+            .table-column-input {
+                .el-input {
+                    width: 30%;
+                    .el-input__inner {
+                        // width: 80px;
+                        height: 32px;
+                        line-height: 32px;
+                        border-radius: 5px;
+                    }
+                }
+                .whole-input {
+                    width: 100%;
+                    .el-input__inner {
+                        width: 100%;
+                        height: 32px;
+                        line-height: 32px;
+                    }
+                }
+            }
+        }
+        .el-table tr:hover td,
+        .el-table tr.hover-row td {
+            background: #EFF7FF !important;
+        }
+        .el-table--border,
+        .el-table--group,
+        .el-table--border td,
+        .el-table--border th,
+        .el-table__fixed {
+            border: none;
+        }
+        .el-table__fixed,
+        .el-table__fixed-right {
+            z-index: 1000;
+            box-shadow: -4px 1px 6px rgba(0, 0, 0, 0.09) !important;
+            padding-bottom: -10px;
+        }
+        .custom-header-item {
+            display: flex;
+            .custom-header-label {
+                display: inline-block;
+                margin-right: 4px;
+                // height: 20px!important;
+                // line-height: 20px;
+            }
+            &.label-vertical {
+                flex-direction: column;
+                .custom-header-label {
+                    height: 20px !important;
+                    line-height: 20px;
+                }
+            }
+            .font-icon {
+                cursor: pointer;
+                &:hover {
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+    
+    // 时间
+    .el-date-table th,
+    .el-date-table td {
+        font-size: 13px;
+    }
+    
+    //带有颜色边框的分页 
+    .common-page-style {
+         ::v-deep.el-pagination.is-background .el-pager li:not(.disabled).active {
+            background-color: #109583!important;
+            color: #FFF;
+            border: none;
+            font-size: 12px;
+        }
+         ::v-deep.el-pagination.is-background .el-pager li {
+            border: 1px solid #95979C;
+            background-color: #fff;
+        }
+         ::v-deep.el-pagination__editor {
+            margin: 0 10px;
+        }
+         ::v-deep .btn-prev,
+         ::v-deep.btn-next,
+         ::v-deep.more {
+            background-color: #fff!important;
+        }
+    }
+    
+    //表格样式->数据展示
+    .table-dataShar {
+         ::v-deep.el-table {
+            th,
+            tr {
+                height: 60px;
+            }
+            .el-table__append-wrapper {
+                overflow: visible;
+            }
+            th>.cell {
+                padding-right: 0;
+            }
+            td {
+                border: none!important;
+                .cell {
+                    font-size: 16px;
+                    font-family: 'Microsoft YaHei';
+                    font-weight: 400;
+                    color: #333333;
+                }
+            }
+            &::before {
+                background-color: #fff!important;
+            }
+            .el-table__header {
+                .has-gutter {
+                    & tr th {
+                        // padding-right: 0;
+                        .cell {
+                            font-size: 16px;
+                            font-family: 'Microsoft YaHei';
+                            font-weight: 400;
+                            color: #A2ADBF;
+                            padding-left: 0;
+                        }
+                    }
+                    & tr {
+                        & th:nth-child(1) {
+                            padding-left: 25px;
+                        }
+                    }
+                }
+            }
+            .el-table__body {
+                .el-table-column--selection .cell {
+                    padding-right: 0;
+                }
+                & tr td:nth-child(1) {
+                    & .cell {
+                        padding-left: 30px;
+                    }
+                }
+                & tr td:nth-child(9) {
+                    & .cell {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    
+    .alarm-table {
+         ::v-deep.el-table {
+            th,
+            tr {
+                height: 60px;
+            }
+            td {
+                border: none!important;
+                .cell {
+                    font-size: 16px;
+                    font-family: 'Microsoft YaHei';
+                    font-weight: 400;
+                    color: #333333;
+                }
+            }
+            & tbody tr:hover>td {
+                background-color: #ffffff!important
+            }
+            &::before {
+                background-color: #fff!important;
+            }
+            .el-table__header {
+                .has-gutter {
+                    & tr th {
+                        .cell {
+                            font-size: 16px;
+                            font-family: 'Microsoft YaHei';
+                            font-weight: 400;
+                            color: #A2ADBF;
+                        }
+                    }
+                }
+            }
+            .el-table__body {
+                & tr td:nth-child(4) {
+                    & .cell {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        .titleX {
+                            img {
+                                margin-left: 10px;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                    & .cell {
+                        .el-select {
+                            .el-select__caret {
+                                color: #000;
+                                font-size: 20px;
+                            }
+                            .el-input__inner {
+                                width: 100px;
+                                border: none;
+                                font-size: 16px;
+                                font-family: 'Microsoft YaHei';
+                                font-weight: 400;
+                                color: green;
+                                @if 10+19==20 {
+                                    color: red;
+                                }
+                            }
+                            .el-icon-arrow-up:before {
+                                content: "\e78f";
+                            }
+                        }
+                        // .selectBox {
+                        //     width: 100px;
+                        //     ul {
+                        //         width: 100%;
+                        //         display: flex;
+                        //         flex-direction: column;
+                        //         li {
+                        //             height: 30px;
+                        //             padding: 0 5px;
+                        //             box-sizing: border-box;
+                        //             & span:nth-child(2) {
+                        //                 display: inline-block;
+                        //                 width: 11px;
+                        //                 height: 7px;
+                        //                 margin-left: 10px;
+                        //             }
+                        //         }
+                        //     }
+                        // }
+                    }
+                }
+                & tr td:nth-child(5) {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    
+    //清除浮动
+    .clearfix:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+    
+    //全部的下拉框样式
+    .common-selectDown {
+        .el-select-dropdown__list {
+            .el-select-dropdown__item {
+                height: 40px;
+                font-size: 16px;
+                line-height: 40px;
+                font-family: 'Microsoft YaHei';
+                font-weight: 400;
+                color: #A2ADBF;
+                &.selected {
+                    font-weight: 400;
+                    color: #333333;
+                }
+                &.hover {
+                    background-color: #EEF3F3;
+                }
+            }
+        }
+    }

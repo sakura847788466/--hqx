@@ -1,0 +1,119 @@
+@import '../../sass/mixin.scss';
+@import '../../sass/common.scss';
+.dataShow {
+    width: 100%;
+    height: 100%;
+    @include flex(center, space-between);
+    .left {
+        width: 454px;
+        background: #FFFFFF;
+        opacity: 1;
+        border-radius: 8px;
+        padding-top: 50px;
+        box-sizing: border-box;
+        .item {
+            @include flex(center, space-between);
+            margin-bottom: 32px;
+            padding-right: 56px;
+            padding-left: 32px;
+            span {
+                width: 66px;
+                display: inline-block;
+                font-size: 16px;
+                font-family: 'Microsoft YaHei';
+                font-weight: 400;
+                color: #666666;
+            }
+            .el-date-editor {
+                width: 290px;
+                height: 42px;
+                padding-top: 0!important;
+                padding-bottom: 0!important;
+                 ::v-deep.el-range-input {
+                    font-size: 16px;
+                    font-family: 'Microsoft YaHei';
+                    font-weight: 400;
+                    color: #333333;
+                }
+                 ::v-deep.el-range-separator {
+                    font-size: 16px;
+                    line-height: 40px;
+                }
+                 ::v-deep.el-input__icon {
+                    line-height: 42px;
+                }
+            }
+            .el-select {
+                width: 290px;
+                height: 42px;
+                 ::v-deep.el-input__inner {
+                    @extend .el-select;
+                    border-radius: 4px;
+                    font-size: 16px;
+                    font-family: 'Microsoft YaHei';
+                    font-weight: 400;
+                    color: #333333;
+                    line-height: 42px;
+                }
+            }
+        }
+        .btnOption {
+            margin-top: 28px;
+            width: 100%;
+            @include flex(center, center);
+            .find {
+                width: 130px;
+                height: 40px;
+                background: #109583;
+                border-radius: 4px;
+                color: #fff;
+                margin-right: 50px;
+            }
+            .reset {
+                width: 130px;
+                height: 40px;
+                border: 1px solid #B4B4B4;
+                border-radius: 4px;
+                color: #B4B4B4;
+            }
+        }
+    }
+    .right {
+        width: 1370px;
+        background: #FFFFFF;
+        opacity: 1;
+        border-radius: 8px;
+        padding: 26px 32px 24px 32px;
+        box-sizing: border-box;
+        position: relative;
+        .title {
+            width: 100%;
+            height: 40px;
+            @include flex(center, space-between);
+            margin-bottom: 16px;
+            .sign {
+                font-size: 18px;
+                font-family: 'Microsoft YaHei';
+                font-weight: bold;
+                color: #333333;
+            }
+            .downLoad {
+                width: 130px;
+                height: 40px;
+                border: 1px solid #109583;
+                opacity: 1;
+                border-radius: 4px;
+                color: #109583;
+            }
+        }
+        .page-list {
+            width: 100%;
+            margin-top: 12px;
+            position: absolute;
+            bottom: 24px;
+            left: 50%;
+            transform: translateX(-50%);
+            @include flexCenter(center);
+        }
+    }
+}

@@ -1,0 +1,70 @@
+@import '../../sass/common.scss';
+@import '../../sass/mixin.scss';
+.common-header {
+    width: 1920px;
+    height: 86px;
+    background: #FFFFFF;
+    @include flex(center, space-between);
+    padding: 0 170px 0 34px;
+    box-sizing: border-box;
+    .left {
+        height: 30px;
+        display: flex;
+        img {
+            width: 29px;
+            height: 33px;
+        }
+        span {
+            margin-left: 8px;
+            font-size: 30px;
+            font-family: '经典特宋简';
+            font-weight: bold;
+            color: #333333;
+        }
+    }
+    .right {
+        width: 775px;
+        height: 100%;
+         ::v-deep.el-menu-item {
+            line-height: 0;
+        }
+        ul {
+            @extend .right;
+            @include flex(center, space-between);
+            li {
+                width: 150px;
+                height: 54px;
+                background: #ffff;
+                opacity: 1;
+                border-radius: 185px;
+                @include flexCenter(center);
+                font-size: 18px;
+                font-family: ' Microsoft YaHei';
+                font-weight: 400;
+                color: #333333;
+                cursor: pointer;
+                .errNumber {
+                    position: absolute;
+                    top: 7px;
+                    right: 23px;
+                    width: 14px;
+                    height: 14px;
+                    background: #FF6161;
+                    border-radius: 50%;
+                    @include flexCenter(center);
+                    p {
+                        color: #fff;
+                        font-size: 20px;
+                        transform: scale(.5);
+                        display: inline-block;
+                    }
+                }
+            }
+            .is-active {
+                background: #109583;
+                color: #ffff;
+                border: none;
+            }
+        }
+    }
+}
